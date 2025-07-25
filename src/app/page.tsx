@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Portal } from "./components/Portal";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <Portal direction="v">
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -19,7 +21,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-
+        </Portal>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
