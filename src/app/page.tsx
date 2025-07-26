@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h2>Portal Orbit Component:</h2>
-        <Portal direction="v">
+        <Portal color="#00ff00" shadowColor1="#ffff00" shadowColor2="#ffffff" width={5} >
         <Image
           className={styles.logo}
           src="/next.svg"
