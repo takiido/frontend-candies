@@ -4,7 +4,7 @@
 
 
 @media (max-width: 600px) {
-    :root {
+    :global(:root) {
         --portal-padding: 32px;
     }
 }
